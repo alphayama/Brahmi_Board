@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Keyboard
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+
+    //Vowel Row
+    <Row>
+        <Key
+            android:keyLabel="𑀅 𑀸"
+            android:keyEdgeFlags="left"
+            android:codes="69637,69698"/>
+
+        <Key
+            android:keyLabel="𑀆"
+            android:codes="69638"/>
+
+        <Key
+            android:keyLabel="𑀇"
+            android:codes="69639"/>
+
+        <Key
+            android:keyLabel="𑀈"
+            android:codes="69640"/>
+
+        <Key
+            android:keyLabel="𑀉"
+            android:codes="69641"/>
+
+        <Key
+            android:keyLabel="𑀊"
+            android:codes="69642"/>
+
+        <Key
+            android:keyLabel="𑀏"
+            android:codes="69643"/>
+
+        <Key
+            android:keyLabel="𑀐"
+            android:codes="69644"/>
+
+        <Key
+            android:keyLabel="𑀑"
+            android:codes="69645"/>
+
+        <Key
+            android:keyLabel="𑀒"
+            android:keyEdgeFlags="right"
+            android:codes="69646"/>
+    </Row>
+
+    //Matra Row
+    <Row>
+        <Key
+            android:keyLabel="𑀅"
+            android:keyEdgeFlags="left"
+            android:codes="11005"/>
+
+        <Key
+            android:keyLabel="𑀆"
+            android:codes="11006"/>
+
+        <Key
+            android:keyLabel="𑀇"
+            android:codes="11007"/>
+
+        <Key
+            android:keyLabel="𑀈"
+            android:codes="11008"/>
+
+        <Key
+            android:keyLabel="𑀉"
+            android:codes="11009"/>
+
+        <Key
+            android:keyLabel="𑀊"
+            android:codes="1100A"/>
+
+        <Key
+            android:keyLabel="𑀏"
+            android:codes="1100F"/>
+
+        <Key
+            android:keyLabel="𑀐"
+            android:codes="11010"/>
+
+        <Key
+            android:keyLabel="𑀑"
+            android:codes="11011"/>
+
+        <Key
+            android:keyLabel="𑀒"
+            android:keyEdgeFlags="right"
+            android:codes="11012"/>
+    </Row>
+
+</Keyboard>
