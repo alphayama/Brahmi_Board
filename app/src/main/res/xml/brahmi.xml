@@ -7,12 +7,12 @@
     android:verticalGap="0px"
     android:keyHeight="60dp">
 
-    //Vowel Row
+    //Svara Row 0
     <Row>
         <Key
-            android:keyLabel="𑀅 𑀸"
+            android:keyLabel="𑀅"
             android:keyEdgeFlags="left"
-            android:codes="69637,69698"/>
+            android:codes="69637"/>
 
         <Key
             android:keyLabel="𑀆"
@@ -48,53 +48,61 @@
 
         <Key
             android:keyLabel="𑀒"
-            android:keyEdgeFlags="right"
             android:codes="69646"/>
+
+        <Key
+            android:keyLabel="𑀋"
+            android:keyEdgeFlags="right"
+            android:codes="69643"/>
     </Row>
 
-    //Matra Row
+    //Svara Row 1
     <Row>
         <Key
-            android:keyLabel="𑀅"
+            android:keyLabel="𑁆"
             android:keyEdgeFlags="left"
-            android:codes="11005"/>
+            android:codes="69702"/>
 
         <Key
-            android:keyLabel="𑀆"
-            android:codes="11006"/>
+            android:keyLabel="𑀸"
+            android:codes="69688"/>
 
         <Key
-            android:keyLabel="𑀇"
-            android:codes="11007"/>
+            android:keyLabel="𑀺"
+            android:codes="69690"/>
 
         <Key
-            android:keyLabel="𑀈"
-            android:codes="11008"/>
+            android:keyLabel="𑀻"
+            android:codes="69691"/>
 
         <Key
-            android:keyLabel="𑀉"
-            android:codes="11009"/>
+            android:keyLabel="𑀼"
+            android:codes="69692"/>
 
         <Key
-            android:keyLabel="𑀊"
-            android:codes="1100A"/>
+            android:keyLabel="𑀽"
+            android:codes="69693"/>
 
         <Key
-            android:keyLabel="𑀏"
-            android:codes="1100F"/>
+            android:keyLabel="𑁂"
+            android:codes="69698"/>
 
         <Key
-            android:keyLabel="𑀐"
-            android:codes="11010"/>
+            android:keyLabel="𑁃"
+            android:codes="69699"/>
 
         <Key
-            android:keyLabel="𑀑"
-            android:codes="11011"/>
+            android:keyLabel="𑁄"
+            android:codes="69700"/>
 
         <Key
-            android:keyLabel="𑀒"
+            android:keyLabel="𑁅"
+            android:codes="69701"/>
+
+        <Key
+            android:keyLabel="𑀾"
             android:keyEdgeFlags="right"
-            android:codes="11012"/>
+            android:codes="69694"/>
     </Row>
 
 </Keyboard>
